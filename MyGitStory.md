@@ -7,7 +7,7 @@ git config --global user.email "YourEmailAddress"
 
 # Configure SSH connection
 ssh-keygen -t ed25519 -C "YourEmailAddress"
-eval `ssh-agent -s` # make shure ssh-agent is running
+eval eval $(ssh-agent) # make shure ssh-agent is running
 ssh-add ~/.ssh/id_rsa.pub
 
 # Generate Personal Access Token

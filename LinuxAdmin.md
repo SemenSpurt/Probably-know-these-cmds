@@ -5,9 +5,10 @@ cat /etc/passwd
 sudo userdel <usename>
 
 # Create new user 
--m creates user with home directory\n
--s creates user with specific shell\n
-sudo useradd -m -g <primary> -G <secondary,groups> -s /bin/bash <name>
+sudo useradd -m -g <primary> -G <secondary,groups> -s /bin/bash <name> \
+  -m creates user with home directory\
+  -s creates user with specific shell\
+
 
 # Change user`s password
 sudo passwd <username>

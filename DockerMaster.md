@@ -7,3 +7,6 @@ docker exec -it tag bash -c "one command && and another" \
 docker network ls \
 docker network inspect network
 docker network connect network container
+
+# Remove by name pattern
+docker rmi $(docker images | grep 'pattern')

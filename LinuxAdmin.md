@@ -1,3 +1,7 @@
+# Find
+find directory-to-search criteria action \
+find ./ -type f -iname "*geneInfo*"
+
 # List all users
 cat /etc/passwd
 

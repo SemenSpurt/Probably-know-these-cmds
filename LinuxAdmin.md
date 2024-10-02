@@ -6,7 +6,7 @@ find ./ -type f -iname "*geneInfo*"
 cat /etc/passwd
 
 # Delete user
-sudo userdel <usename>
+sudo userdel -r <usename>
 
 # Create new user 
 sudo useradd -m -g <primary> -G <secondary,groups> -s /bin/bash <name> \

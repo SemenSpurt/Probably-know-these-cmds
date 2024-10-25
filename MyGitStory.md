@@ -2,7 +2,7 @@
 git config --list
 
 # Set email and name
-git config --global user.name "WatsYourNameBuddy"
+git config --global user.name "WatsYourNameBuddy" \
 git config --global user.email "YourEmailAddress"
 
 # Configure SSH connection

@@ -10,7 +10,7 @@ ssh-keygen -t ed25519 -C "YourEmailAddress" \
 eval $(ssh-agent) # make shure ssh-agent is running \
 ssh-add ~/.ssh/id_rsa.pub
 
-# Add SSH key to GitHub
+## Add SSH key to GitHub
 Settings >> SSH and GPG keys >> New SSH key >> enter key from ~/.ssh/file.pub
 
 # Generate Personal Access Token

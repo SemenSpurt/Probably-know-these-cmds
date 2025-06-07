@@ -17,5 +17,14 @@ Settings >> SSH and GPG keys >> New SSH key >> enter key from ~/.ssh/file.pub
 Settings >> Developer Settings >> Personal access tokens >> 
 Chose token type >> Generate new token >> Don`t forget checkboxes
 
+# New repo
+mkdir <project_dir-name> \
+git init \
+git remote add origin <remote repo URL> \
+***write some code***
+git add * \
+git commit -am "<commit title>"
+git push --set-upstream origin master \
+
 
 

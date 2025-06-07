@@ -23,7 +23,7 @@ git init \
 git remote add origin <remote repo URL> \
 ***write some code*** \
 git add * \
-git commit -am "<commit title>"
+git commit -am "\<commit title\>" \
 git push --set-upstream origin master \
 
 

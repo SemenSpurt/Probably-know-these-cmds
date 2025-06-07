@@ -21,7 +21,7 @@ Chose token type >> Generate new token >> Don`t forget checkboxes
 mkdir <project_dir-name> \
 git init \
 git remote add origin <remote repo URL> \
-***write some code***
+***write some code*** \
 git add * \
 git commit -am "<commit title>"
 git push --set-upstream origin master \
